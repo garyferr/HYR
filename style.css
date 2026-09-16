@@ -6,14 +6,15 @@
     padding:0px;
     }
 
-.botonadquirir {
+.botonadquirir a {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    color :#ee5a05;
+    color :#000000;
     box-sizing: border-box;
     box-sizing: color-box #ee5a05;
+    border-radius: 7px;
     }
 
 button {
