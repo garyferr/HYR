@@ -12,6 +12,8 @@
     align-items: center;
     margin-top: 20px;
     color :#ee5a05;
+    box-sizing: border-box;
+    box-sizing: color-box #ee5a05;
     }
 
 button {
