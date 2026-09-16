@@ -1,8 +1,8 @@
 .imageninicio {
-    width: 100%;
-    height: auto;
+    width: 100vw;
+    height: 33vw;
     display: block;
-    margin: 0 auto;
+    margin: 0px;
     padding:0px;
     }
 
