@@ -1,7 +1,7 @@
 .imageninicio {
     width: 100%;
     height: auto;
-    display: flex;
+    display: block;
     margin: 0 auto;
     padding:0px;
     }
