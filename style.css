@@ -1,39 +1,54 @@
 .imageninicio {
-    width: 100vw;
+    width: 100vw;   
     height: 33vw;
     display: block;
     margin: 0px;
     padding:0px;
+    text-align: center;
+    background: #a54200;
+    }
+
+.botonadquirir {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
     }
 
 .botonadquirir a {
-    display: flex;
+    display:inline-flex;
+    background:#ee5a05;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    color :#000000;
-    box-sizing: border-box;
-    box-sizing: color-box #ee5a05;
     border-radius: 7px;
-    }
-
-button {
-    background-color: #ee5a05;
     color: white;
-    padding: 15px 32px;
-    text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 4px;
+    padding: 12px 30px;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    animation: latido 1.2s infinite ease-in-out;
 }
+    
 
 .mensaje {
     text-align: center;
     margin-top: 20px;
     font-size: 24px;
     color: #000000;
-    font-family: monospace;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+@keyframes latido {
+    0%, 100% {
+        transform: scale(1);
+    }
+    20% {
+        transform: scale(1.08);
+    }
+    35% {
+        transform: scale(0.96);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    70% {
+        transform: scale(0.98);
+    }
 }
