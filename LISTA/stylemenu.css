@@ -1,5 +1,27 @@
-h1 {
-    color: #333;
-    font-size: 100px;
-    text-align: center;
+body {
+    margin: 0;
+}
+
+.barra {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 30px;
+    background-color: #ee5a05;
+}
+
+.menu { 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.menu a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 18px;
+    win-width: 90px;
 }
