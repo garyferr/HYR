@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+}
+
+.logo {
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    z-index: 2;
+    width: 140px;
+    height: auto;
+}
+
+.logo-fallback {
+    position: absolute;
+    top: 22px;
+    left: 20px;
+    z-index: 2;
+    display: none;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.barra {
+    padding: 20px 30px 48px;
+    background-color: #f1620f;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: clamp(24px, 6vw, 80px);
+}
+
+.menu a {
+    display: flex;
+    justify-content: center;
+    min-width: 90px;
+    padding: 10px 18px;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.oferta {
+    margin: 28px 30px 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ofertas-scroll {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 0 30px 24px;
+    scrollbar-color: #f1620f #f1f1f1;
+}
+
+.oferta-card {
+    flex: 0 0 220px;
+    overflow: hidden;
+    border: 1px solid #eeeeee;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.oferta-card img {
+    display: block;
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    background: #f7f7f7;
+}
+
+.oferta-card h3,
+.oferta-card p {
+    margin-left: 16px;
+    margin-right: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.oferta-card h3 {
+    margin-top: 14px;
+    margin-bottom: 6px;
+}
+
+.oferta-card p {
+    min-height: 40px;
+    margin-top: 0;
+    margin-bottom: 16px;
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.4;
+}
